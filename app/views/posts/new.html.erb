@@ -1,0 +1,26 @@
+
+
+
+<%= form_tag("/users/create") do%>
+    <div class="new_zenbu">
+    <p>Username</p>
+    <div class="text_create">
+    <input name = "name" class="nyuuryoku">
+    </div>
+    <p>Email</p>
+    <div class="text_create">
+    <input name = "email" class="nyuuryoku">
+    </div>
+    <p>Password</p>
+    <div class="text_create">
+    <input name="password" type="password" class="nyuuryoku">
+    </div>
+    <input type="submit" value="Create" class="btn_new">
+    </div>
+  <% end %>
+
+  <div class="lemon">
+  <%= link_to("/sign") do %>
+    <span><i class="far fa-lemon"></i></span>
+    <%end%>
+</div>

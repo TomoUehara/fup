@@ -1,0 +1,64 @@
+<% current_user = User.find_by(id: session[:user_id]) %>
+
+<div class="zenbu_time">
+
+<div class="rule_top">
+<p>Fup! = answer to the question that will make people laugh<p>
+</div>
+
+<div class="new_posts">
+<p>New Posts</p>
+</div>
+
+<% @posts.each do|post|%>
+    <div class="oogiri">
+    <p>Whats the funniest thing your mom said?</p>
+    <div class="oogiri_main">
+    <div class="oogiri_hito">
+    </div>
+    <div class="oogiri_moji">
+    <%= link_to(post.content, "/posts/#{post.id}") %>
+    </div>
+    <div class="oogiri_time">
+    <%= post.created_at %>
+    </div>
+    <% if current_user %>
+    <div class="oogiri_iine">
+    <% if Laugh.find_by(user_id: @current_user, post_id: post.id) %>
+      <%= link_to("/likes/#{post.id}/destroy", {method: "post"}) do %>
+      <div class="oogiri_icon_iine">
+      <span><i class="far fa-laugh-squint"></i></span>
+      </div>
+      <%end%>
+      <%else%>
+      <%= link_to("/likes/#{post.id}/create", {method: "post"}) do %>
+      <div class="oogiri_not_laugh">
+      <span><i class="far fa-meh-blank"></i></span>
+      </div>
+      <%end%>
+      <%end%>
+    </div>
+    
+
+    <% else %>
+    <div class="oogiri_icon">
+    <i class="fas fa-lock"></i>
+    </div>
+    <%end%>
+    </div>
+    
+    </div>
+
+    <footer>
+<%= link_to("/") do %>
+  <span><i class="fas fa-star"></i></span>
+  <%end%>
+
+<%= link_to("/time") do %>
+  <span><i class="fas fa-clock"></i></span>
+  <%end%>
+  
+</footer>
+    <% end %>
+
+    </div>

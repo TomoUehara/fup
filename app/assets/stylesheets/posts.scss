@@ -1,0 +1,789 @@
+// Place all the styles related to the posts controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: https://sass-lang.com/
+
+
+.new_posts p{
+    margin-top:40px;
+    margin-bottom:20px;
+    text-align: center;
+    font-family:'Courier New', Courier, monospace;
+    text-decoration: underline;
+}
+
+footer{
+    position: fixed;
+    bottom:0;
+    background-color: orange;
+    border-top:2px solid #FFCC33;
+    width:51%;
+    height:50px;
+
+    border-top-left-radius: 15px;
+border-top-right-radius: 15px;
+}
+
+footer a{
+    color:white;
+    font-size:25px;
+}
+
+footer i{
+    padding-top:8px;
+    margin-left:27%;
+}
+
+footer p{
+    margin-left:25%;
+    width:50px;
+}
+
+
+.sign_tomo{
+    
+    height:100px;
+    width:250px;
+    margin:auto;
+
+}
+
+.sign_tomo p{
+    text-align: center;
+    margin-top:300px;
+    font-family:'American Typewriter';
+}
+
+
+.lemon{
+    position:fixed;
+    bottom:0;
+    right:0;
+}
+
+.lemon i{
+    font-size:3px;
+}
+
+
+html{
+    
+    margin-right:0;
+    
+}
+
+
+
+.user_name_of_fup h1{
+    font-size:20px;
+    position:absolute;
+    top:22px;
+    right:62%;
+    width:100px;
+    margin-top:0;
+    font-family:'Courier New', Courier, monospace;
+   
+    text-align: right;
+}
+
+.header_logo_words{
+    width:100px;
+}
+
+.header_logo_words p{
+    font-size: 90px;
+}
+
+.header_logo_words a{
+    position:absolute;
+    top:10px;
+    left:10px;
+
+    font-size:40px;
+}
+
+.rogo a{
+    position:absolute;
+    top:21px;
+    left:40%;
+    font-size:23px;
+}
+
+.rogo_log a{
+    position:absolute;
+    top:22px;
+    left:45%;
+    font-size:22px;
+}
+
+header{
+    width:auto;
+    height:65px;
+    margin-bottom:20px;
+    border-bottom: 3px solid orange;
+    
+    
+}
+
+body{
+    width:auto;
+    margin:0;
+}
+
+
+
+
+a{
+    color:orange;
+    font-family:'Courier New', Courier, monospace;
+    text-decoration: none;
+    font-size:30px;
+}
+
+
+
+.zenbu{
+
+width:50%;
+margin-right:0px;
+margin-left:0;
+
+font-family:'Courier New', Courier, monospace;
+
+
+}
+
+
+.zenbu_time{
+    width:50%;
+}
+
+
+
+
+.uenohou{
+width:auto;
+height:180px;
+background-color: white;
+}
+
+
+.rule_top p{
+    color:orange;
+    font-family:'Courier New', Courier, monospace;
+}
+
+
+.uenohou_topic{
+margin-top: 10px;
+margin-bottom: 0;
+font-size: 20px;
+text-decoration: underline;
+margin:0;
+color:black;
+
+
+}
+
+
+
+.uenohou_real_topic{
+font-size: 35px;
+margin-top:5px;
+margin-bottom: 15px;
+padding-right:20px;
+padding-left:20px;
+width:90%;
+height:120px;
+background-color:orange;
+
+}
+
+.uenohou_real_topic p{
+color:white;
+font-weight:normal;
+margin-top: 30px;
+margin-bottom:0px;
+}
+
+
+
+.uenohou_shita{
+margin-top:5px;
+font-size: 13px;
+color:black;
+}
+
+
+.toukou_pa-to{
+font-family:'Courier New', Courier, monospace;
+
+height:150px;
+width:100%;
+margin-top: 45px;
+margin-bottom:20px;
+padding-top:0px;
+
+border-bottom: 3px solid orange ;
+
+}
+
+
+.toukou_main{
+height:140px;
+width: 90%;
+margin-bottom:10px;
+
+}
+
+.toukou_main p{
+margin-top: 4px;
+margin-bottom: 2px;
+}
+
+.toukou_text{
+width:auto;
+}
+
+.toukou_text textarea{
+height:80px;
+width:100%;
+
+
+border:1px solid orange;
+font-family:'Courier New', Courier, monospace;
+}
+
+.toukou_text p{
+position:absolute;
+left:25%;
+
+}
+
+.btn{
+background-color: orange;
+color:white;
+font-family:'Courier New', Courier, monospace;
+
+border:3px;
+float:right;
+
+width:70px;
+height:30px;
+
+}
+
+
+
+.oogiri{
+height:185px ;
+width:100%;
+margin-top:30px;
+margin-bottom: 4px;
+padding-top:0px;
+word-break: break-all;
+
+
+
+
+border:1px solid orange;
+}
+
+.oogiri i{
+font-size:22px;
+margin-top:8px;
+}
+
+.oogiri_main{
+padding-right:12px;
+padding-left:17px;
+width:90%;
+margin-right:0px;
+}
+
+.oogiri p{
+font-size:15px;
+background-color: orange;
+color:white;
+font-weight: bold;
+
+
+padding-top:6px;
+padding-left:12px;
+padding-right:12px;
+padding-bottom: 6px;
+margin-top: 0px;
+margin-bottom: 12px;
+
+width:97%;
+
+
+}
+
+.oogiri_moji{
+font-family:'Courier New', Courier, monospace;
+word-break: break-all;
+width:90%;
+}
+
+.oogiri_moji a{
+color:black; 
+font-size:16px;
+}
+
+.oogiri_moji a:hover{
+color:gray;
+}
+
+.oogiri_time{
+font-size: 12px;
+color:orange;
+
+padding-top:4px;
+}
+
+
+.oogiri_icon{
+width:13px;
+}
+
+.oogiri_icon_iine {
+color:#FF5F17;
+width:50px;
+}
+
+.oogiri_not_laugh{
+color:black;
+width:25px;
+}
+
+.new_zenbu{
+width:auto;
+font-family:'Courier New', Courier, monospace;
+}
+
+.new_zenbu p{
+margin-left:5%;
+margin-bottom:7px;
+text-decoration: underline;
+}
+
+
+
+.text_create{
+margin-left:5%;
+
+}
+
+.nyuuryoku{
+border:2px solid orange;
+width:45%;
+}
+
+.btn_new{
+margin-top:12px;
+background-color: orange;
+color:white;
+width:70px;
+height:30px;
+border:2px solid orange;
+position: absolute;
+left:48%;
+}
+
+.twitter_share i{
+margin-top:20px;
+margin-left:20px;
+}
+
+
+@media screen and (max-width: 480px) {
+
+
+   
+    .new_posts p{
+        margin-top:40px;
+        margin-bottom:20px;
+        text-align: center;
+        font-family:'Courier New', Courier, monospace;
+        text-decoration: underline;
+    }
+
+    footer{
+        position: fixed;
+        bottom:0;
+        background-color: orange;
+        border-top:2px solid #FFCC33;
+        width:100%;
+        height:50px;
+
+        border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+    }
+
+    footer a{
+        color:white;
+        font-size:25px;
+    }
+
+    footer i{
+        padding-top:8px;
+        margin-left:27%;
+    }
+
+    footer p{
+        margin-left:25%;
+        width:50px;
+    }
+    
+
+    .sign_tomo{
+        
+        height:100px;
+        width:250px;
+        margin:auto;
+
+    }
+
+    .sign_tomo p{
+        text-align: center;
+        margin-top:300px;
+        font-family:'American Typewriter';
+    }
+
+
+    .lemon{
+        position:fixed;
+        bottom:0;
+        right:0;
+    }
+
+    .lemon i{
+        font-size:3px;
+    }
+
+
+    html{
+        width:auto;
+        margin-right:0;
+        
+    }
+
+
+
+    .user_name_of_fup h1{
+        font-size:20px;
+        position:absolute;
+        top:22px;
+        right:27%;
+        width:100px;
+        margin-top:0;
+        font-family:'Courier New', Courier, monospace;
+       
+        text-align: right;
+    }
+    
+    .header_logo_words{
+        width:100px;
+    }
+    
+    .header_logo_words p{
+        font-size: 90px;
+    }
+    
+    .header_logo_words a{
+        position:absolute;
+        top:10px;
+        left:10px;
+    
+        font-size:40px;
+    }
+    
+    .rogo a{
+        position:absolute;
+        top:21px;
+        left:77%;
+        font-size:23px;
+    }
+    
+    .rogo_log a{
+        position:absolute;
+        top:22px;
+        left:90%;
+        font-size:22px;
+    }
+    
+    header{
+        width:auto;
+        height:65px;
+        margin-bottom:20px;
+        border-bottom: 3px solid orange;
+        
+        
+    }
+    
+    body{
+        width:auto;
+        margin:0;
+    }
+    
+    
+   
+    
+    a{
+        color:orange;
+        font-family:'Courier New', Courier, monospace;
+        text-decoration: none;
+        font-size:30px;
+    }
+    
+
+
+.zenbu{
+
+    width:100%;
+    margin-right:0px;
+    margin-left:0;
+    
+    font-family:'Courier New', Courier, monospace;
+
+    
+}
+
+.zenbu_time{
+    width:100%;
+}
+
+
+.uenohou{
+    width:auto;
+    height:180px;
+    background-color: white;
+}
+
+.rule_top p{
+    color:orange;
+}
+
+
+
+.uenohou_topic{
+    margin-top: 10px;
+    margin-bottom: 0;
+    font-size: 20px;
+    text-decoration: underline;
+    margin:0;
+   color:black;
+    
+   
+}
+
+
+
+.uenohou_real_topic{
+    font-size: 35px;
+    margin-top:5px;
+    margin-bottom: 15px;
+    padding-right:20px;
+    padding-left:20px;
+    width:90%;
+    height:120px;
+    background-color:orange;
+
+}
+
+.uenohou_real_topic p{
+    color:white;
+    font-weight:normal;
+    margin-top: 30px;
+    margin-bottom:0px;
+}
+
+
+
+.uenohou_shita{
+    margin-top:5px;
+    font-size: 13px;
+    color:black;
+}
+
+
+.toukou_pa-to{
+    font-family:'Courier New', Courier, monospace;
+
+    height:150px;
+    width:100%;
+    margin-top: 45px;
+    margin-bottom:20px;
+    padding-top:0px;
+
+    border-bottom: 3px solid orange ;
+
+}
+
+
+.toukou_main{
+    height:140px;
+    width: 90%;
+  margin-bottom:10px;
+   
+}
+
+.toukou_main p{
+    margin-top: 4px;
+    margin-bottom: 2px;
+}
+
+.toukou_text{
+    width:auto;
+}
+
+.toukou_text textarea{
+    height:80px;
+    width:100%;
+
+
+    border:1px solid orange;
+    font-family:'Courier New', Courier, monospace;
+}
+
+.toukou_text p{
+    position:absolute;
+    left:25%;
+   
+}
+
+.btn{
+    background-color: orange;
+    color:white;
+    font-family:'Courier New', Courier, monospace;
+
+    border:3px;
+    float:right;
+
+    width:70px;
+    height:30px;
+
+}
+
+.oogiri{
+    height:185px ;
+    width:100%;
+    margin-top:30px;
+    margin-bottom: 4px;
+    padding-top:0px;
+    word-break: break-all;
+
+    
+    
+
+    border:1px solid orange;
+}
+
+.oogiri i{
+    font-size:22px;
+    margin-top:8px;
+}
+
+.oogiri_main{
+    padding-right:12px;
+    padding-left:17px;
+    width:90%;
+    margin-right:0px;
+}
+
+.oogiri p{
+    font-size:15px;
+    background-color: orange;
+    color:white;
+    font-weight: bold;
+
+
+    padding-top:6px;
+    padding-left:12px;
+    padding-right:12px;
+    padding-bottom: 6px;
+    margin-top: 0px;
+    margin-bottom: 12px;
+
+    width:94%;
+
+   
+}
+
+.oogiri_moji{
+    font-family:'Courier New', Courier, monospace;
+    word-break: break-all;
+    width:90%;
+}
+
+.oogiri_moji a{
+    color:black; 
+    font-size:16px;
+}
+
+.oogiri_moji a:hover{
+    color:gray;
+}
+
+.oogiri_time{
+    font-size: 12px;
+    color:orange;
+    
+    padding-top:4px;
+}
+
+
+.oogiri_icon{
+    width:13px;
+}
+
+.oogiri_icon_iine {
+    color:#FF5F17;
+    width:50px;
+}
+
+.oogiri_not_laugh{
+    color:black;
+    width:25px;
+}
+
+.new_zenbu{
+    width:auto;
+    font-family:'Courier New', Courier, monospace;
+}
+
+.new_zenbu p{
+    text-align: center;
+    margin-bottom:7px;
+    text-decoration: underline;
+}
+
+
+
+.text_create{
+    text-align: center;
+    
+}
+
+.nyuuryoku{
+    border:2px solid orange;
+    width:58%;
+}
+
+.btn_new{
+    margin-top:12px;
+    background-color: orange;
+    color:white;
+    width:70px;
+    height:30px;
+    border:2px solid orange;
+    position: absolute;
+    left:62%;
+}
+
+.twitter_share i{
+    margin-top:20px;
+    margin-left:20px;
+}
+
+}

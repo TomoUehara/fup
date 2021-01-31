@@ -1,0 +1,159 @@
+// Place all the styles related to the home controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: https://sass-lang.com/
+
+.zenbu{
+
+    width:394px;
+    margin:auto;
+
+}
+
+.uenohou{
+    background-color:orange;
+    height:565px;
+    width:394px;
+    margin:auto;
+    
+
+    color:white;
+    text-align: center;
+    font-family:'Courier New', Courier, monospace;
+}
+
+
+.uenohou_namae{
+    padding-top:10px;
+    font-size: 35px;
+    color: orange;
+}
+
+
+.uenohou_topic{
+    margin-top: 35px;
+    margin-bottom: 0px;
+    font-size: 30px;
+    text-decoration: underline;
+}
+
+.uenohou_topic_warning{
+    padding:0px;
+    margin-top:0px;
+}
+
+.uenohou_real_topic{
+    font-size: 35px;
+    margin-top:40px;
+    margin-bottom: 10px;
+    padding-right:20px;
+    padding-left:20px;
+    width:320px;
+    margin:auto;
+
+    background-color: white;
+    color:orange;
+    
+}
+
+.uenohou_real_topic p{
+    font-weight: bold;
+}
+
+
+
+.uenohou_shita{
+    margin-top:70px;
+    font-size: 20px;
+}
+
+
+.toukou_pa-to{
+    font-family:'Courier New', Courier, monospace;
+
+    height:130px;
+    width:394px;
+    margin-top: 10px;
+    padding-top:0px;
+
+}
+
+
+.toukou_main{
+    height:156px;
+    width: 364px;
+  
+    margin:auto;
+}
+
+.toukou_main p{
+    margin-top: 7px;
+    margin-bottom: 2px;
+}
+
+.toukou_text textarea{
+    height:80px;
+    width:360px;
+
+    border:1px solid orange;
+    font-family:'Courier New', Courier, monospace;
+}
+
+.btn{
+    background-color: orange;
+    color:white;
+    font-family:'Courier New', Courier, monospace;
+
+    border:3px;
+    float:right;
+
+    width:70px;
+    height:30px;
+
+}
+
+.oogiri{
+    height:100px ;
+    width:394px;
+    margin-bottom: 4px;
+    padding-top:0px;
+    
+    
+
+    border:1px solid orange;
+}
+
+.oogiri_main{
+    padding-right:12px;
+    padding-left:12px;
+}
+
+.oogiri p{
+    font-size:15px;
+    background-color: orange;
+    color:white;
+    font-weight: bold;
+
+
+    padding-top:6px;
+    padding-left:12px;
+    padding-right:12px;
+    padding-bottom: 6px;
+    margin-top: 0px;
+    margin-bottom: 12px;
+
+    width:370px;
+
+   
+}
+
+.oogiri post.content{
+    font-family:'Courier New', Courier, monospace;
+}
+
+.oogiri_time{
+    font-size: 12px;
+    color:orange;
+    
+    padding-top:4px;
+}
+

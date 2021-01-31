@@ -1,0 +1,33 @@
+
+<div class="new_zenbu">
+
+<% current_user = User.find_by(id: session[:user_id]) %>
+
+<% if current_user %>
+
+<%= link_to("ログアウト", "logout", {method: :post}) %>
+<%= current_user.name %>
+
+<% else %>
+
+  <%= form_tag("/login") do %>
+    <p>Email</p>
+    <div class="text_create">
+    <input name="email" class="nyuuryoku">
+    </div>
+    <p>Password</p>
+    <div class="text_create">
+    <input type="password" name="password" class="nyuuryoku">
+    </div>
+    <input type="submit" value="Login" class="btn_new">
+  <% end %>
+
+
+<% end %>
+
+</div>
+<div class="lemon">
+<%= link_to("/sign") do %>
+    <span><i class="far fa-lemon"></i></span>
+    <%end%>
+    </div>

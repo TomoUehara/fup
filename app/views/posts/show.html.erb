@@ -1,0 +1,17 @@
+<div class="oogiri">
+<p>Whats the funniest thing your mom said?</p>
+<div class="oogiri_main">
+<div class="oogiri_moji">
+<%= @post.content %>
+</div>
+<div class="oogiri_time">
+<%= @post.created_at %>
+</div>
+</div>
+<div class="twitter_share">
+<%= link_to "text= What is the funniest thing your mom said?: #{ @post.content }&https://twitter.com/share?url=#{ request.url }", target: '_blank' do %>
+<span><i class="fab fa-twitter"></i></span>
+<%end%>
+</div>
+</div>
+

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+  <head>
+<title>Fup</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <%= csrf_meta_tags %>
+    <%= csp_meta_tag %>
+
+    <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <script src="https://kit.fontawesome.com/a43e8051bb.js" crossorigin="anonymous"></script>
+    
+  </head>
+
+  <body>
+  
+  <header>
+  
+  <div class="header_logo_words">
+  <%= link_to("Fup!", "/") %>
+  </div>
+
+  
+  
+    <% if @current_user %>
+      <div class="user_name_of_fup">
+        <h1><%= @current_user.name %></h1>
+      </div>
+      <div class="rogo">
+      <%= link_to("/signup") do %>
+        <span><i class="fas fa-user-plus"></i></span>
+        <%end%>
+      </div>
+      
+      <div class="rogo_log">
+        <%= link_to("/logout", {method: "post"}) do %>
+      <span><i class="fas fa-sign-out-alt"></i></span>
+      <%end%>
+      </div>
+    <% else %>
+      
+      
+         <div class="rogo">
+      <%= link_to("/signup") do %>
+        <span><i class="fas fa-user-plus"></i></span>
+        <%end%>
+      </div>
+      <div class="rogo_log">
+      <%= link_to("/login") do %>
+        <span><i class="fas fa-sign-in-alt"></i></span>
+        <%end%>
+      </div>
+    <% end %>
+  
+</header>
+
+
+
+
+    <%= yield %>
+  </body>
+</html>
